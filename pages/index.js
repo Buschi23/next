@@ -32,7 +32,9 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-right-side">
-              <button className="home-cta-btn anchor button">START NOW</button>
+              <a href="#kontakt" className="home-cta-btn anchor button">
+                Kontakt aufnehmen
+              </a>
             </div>
             <div data-type="MobileMenu" className="home-mobile-menu">
               <div className="home-container1">
@@ -58,144 +60,161 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div id="resources" className="home-hero">
-          <div id="resources" className="home-hero1">
-            <div className="home-hero-text">
-              <div className="home-content-container"></div>
-              <h1 className="home-heading">
-                IT-Reparatur Korfmann
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </h1>
-              <h3 className="home-heading1">
-                <span>
-                  SJDfljsdlfjasöldfjasldfölkasjdflöasjdlöfjasöldfjaösldjf
-                </span>
-                <br></br>
-                <span>
-                  asdjflasjdfljasldfkjasldjflaskdjflasjkdfasldkfjasdföasl
-                </span>
-                <br></br>
-                <span>sajflsjdlf</span>
-              </h3>
-            </div>
-          </div>
-        </div>
         <div id="inspiration" className="home-features">
-          <div className="home-heading-container">
-            <h2 className="home-text05 section-Heading">Was wird angeboten?</h2>
-          </div>
-          <div className="home-cards-container">
-            <div className="home-features-card">
-              <div className="home-icon-container">
-                <svg viewBox="0 0 1024 1024" className="home-icon04">
-                  <path d="M533.333 234.667c-11.776 0-21.333 9.557-21.333 21.333s9.557 21.333 21.333 21.333c46.208 0 83.797 37.589 83.797 83.797 0 11.776 9.557 21.333 21.333 21.333s21.333-9.557 21.333-21.333c0-69.717-56.747-126.464-126.464-126.464z"></path>
-                  <path d="M533.333 42.667c-176.469 0-320 143.531-320 320 0 63.403 18.773 124.672 54.357 177.707 0.981 2.005 2.091 3.925 3.413 5.76 77.867 111.189 91.563 146.347 91.563 179.2v128c0 23.552 19.115 42.667 42.667 42.667h85.333c0 11.093 4.693 22.187 12.373 30.293 8.107 7.68 19.2 12.373 30.293 12.373 11.093 0 22.187-4.693 30.293-12.373 7.68-8.107 12.373-19.2 12.373-30.293h85.333c23.552 0 42.667-19.115 42.667-42.667v-128c0-33.365 13.611-68.693 90.965-179.157 38.187-54.4 58.368-117.845 58.368-183.509 0-176.469-143.531-320-320-320zM618.667 810.667h-170.667v-42.667h170.667v42.667zM725.12 497.195c-62.549 89.301-91.435 140.331-101.76 185.472h-47.36v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-47.488c-10.24-43.947-38.315-93.867-98.389-180.053-0.939-1.877-2.048-3.712-3.285-5.504-28.032-39.851-42.837-86.357-42.837-134.443 0-129.408 105.259-234.667 234.667-234.667s234.667 105.259 234.667 234.667c0 48.043-14.805 94.549-42.88 134.528z"></path>
-                </svg>
-              </div>
-              <div className="home-text-container">
-                <span className="home-heading2 card-Heading">PC-Reperatur</span>
-                <span className="home-text06 card-Text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer nec odio. Praesent libero. Sed cursus ante dapibus
-                  diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-                </span>
-              </div>
-            </div>
-            <div className="home-features-card1">
-              <div className="home-icon-container1">
-                <svg viewBox="0 0 1024 1024" className="home-icon07">
-                  <path d="M533.333 234.667c-11.776 0-21.333 9.557-21.333 21.333s9.557 21.333 21.333 21.333c46.208 0 83.797 37.589 83.797 83.797 0 11.776 9.557 21.333 21.333 21.333s21.333-9.557 21.333-21.333c0-69.717-56.747-126.464-126.464-126.464z"></path>
-                  <path d="M533.333 42.667c-176.469 0-320 143.531-320 320 0 63.403 18.773 124.672 54.357 177.707 0.981 2.005 2.091 3.925 3.413 5.76 77.867 111.189 91.563 146.347 91.563 179.2v128c0 23.552 19.115 42.667 42.667 42.667h85.333c0 11.093 4.693 22.187 12.373 30.293 8.107 7.68 19.2 12.373 30.293 12.373 11.093 0 22.187-4.693 30.293-12.373 7.68-8.107 12.373-19.2 12.373-30.293h85.333c23.552 0 42.667-19.115 42.667-42.667v-128c0-33.365 13.611-68.693 90.965-179.157 38.187-54.4 58.368-117.845 58.368-183.509 0-176.469-143.531-320-320-320zM618.667 810.667h-170.667v-42.667h170.667v42.667zM725.12 497.195c-62.549 89.301-91.435 140.331-101.76 185.472h-47.36v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-47.488c-10.24-43.947-38.315-93.867-98.389-180.053-0.939-1.877-2.048-3.712-3.285-5.504-28.032-39.851-42.837-86.357-42.837-134.443 0-129.408 105.259-234.667 234.667-234.667s234.667 105.259 234.667 234.667c0 48.043-14.805 94.549-42.88 134.528z"></path>
-                </svg>
-              </div>
-              <div className="home-text-container1">
-                <span className="home-heading3 card-Heading">
-                  Handy Reperatur
-                </span>
-                <span className="home-text07 card-Text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer nec odio. Praesent libero. Sed cursus ante dapibus
-                  diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-                </span>
-              </div>
-            </div>
-            <div className="home-features-card2">
-              <div className="home-icon-container2">
-                <svg viewBox="0 0 1024 1024" className="home-icon10">
-                  <path d="M533.333 234.667c-11.776 0-21.333 9.557-21.333 21.333s9.557 21.333 21.333 21.333c46.208 0 83.797 37.589 83.797 83.797 0 11.776 9.557 21.333 21.333 21.333s21.333-9.557 21.333-21.333c0-69.717-56.747-126.464-126.464-126.464z"></path>
-                  <path d="M533.333 42.667c-176.469 0-320 143.531-320 320 0 63.403 18.773 124.672 54.357 177.707 0.981 2.005 2.091 3.925 3.413 5.76 77.867 111.189 91.563 146.347 91.563 179.2v128c0 23.552 19.115 42.667 42.667 42.667h85.333c0 11.093 4.693 22.187 12.373 30.293 8.107 7.68 19.2 12.373 30.293 12.373 11.093 0 22.187-4.693 30.293-12.373 7.68-8.107 12.373-19.2 12.373-30.293h85.333c23.552 0 42.667-19.115 42.667-42.667v-128c0-33.365 13.611-68.693 90.965-179.157 38.187-54.4 58.368-117.845 58.368-183.509 0-176.469-143.531-320-320-320zM618.667 810.667h-170.667v-42.667h170.667v42.667zM725.12 497.195c-62.549 89.301-91.435 140.331-101.76 185.472h-47.36v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-47.488c-10.24-43.947-38.315-93.867-98.389-180.053-0.939-1.877-2.048-3.712-3.285-5.504-28.032-39.851-42.837-86.357-42.837-134.443 0-129.408 105.259-234.667 234.667-234.667s234.667 105.259 234.667 234.667c0 48.043-14.805 94.549-42.88 134.528z"></path>
-                </svg>
-              </div>
-              <div className="home-text-container2">
-                <span className="home-heading4 card-Heading">
-                  Konsolen Reperatur
-                </span>
-                <span className="home-text08 card-Text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer nec odio. Praesent libero. Sed cursus ante dapibus
-                  diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-                </span>
+          <div id="resources" className="home-hero">
+            <div id="resources" className="home-hero1">
+              <div className="home-hero-text">
+                <div className="home-content-container"></div>
+                <h1 className="home-heading">
+                  IT-Reparatur Kormann
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </h1>
+                <h3 className="home-heading1">
+                  Du suchst ein kompetenten und Ausgebildenden Fachmann in Thema
+                  Hard und Software?
+                </h3>
+                <h3 className="home-heading2">
+                  <span>Dann bist du hier genau richtig!</span>
+                </h3>
               </div>
             </div>
           </div>
         </div>
-        <div className="home-section-separator"></div>
-        <div className="home-team">
-          <div className="home-heading-container1">
-            <h1 className="home-text09 section-Heading">Meet the Team</h1>
-            <span className="home-text10 section-Text">
-              Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero.
-            </span>
-          </div>
-          <div className="home-cards-container1">
-            <div className="home-team-card">
-              <div className="home-avatar-container">
-                <svg viewBox="0 0 1024 1024" className="home-icon13">
-                  <path d="M576 706.612v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h896c0-128.968-166.898-235.64-384-253.388z"></path>
-                </svg>
+        <div id="inspiration" className="home-features1">
+          <div id="inspiration" className="home-features2">
+            <div className="home-heading-container">
+              <h2 className="home-text01 section-Heading">
+                Was wird angeboten?
+              </h2>
+            </div>
+            <div className="home-cards-container">
+              <div className="home-features-card">
+                <div className="home-icon-container">
+                  <svg viewBox="0 0 1024 1024" className="home-icon04">
+                    <path d="M533.333 234.667c-11.776 0-21.333 9.557-21.333 21.333s9.557 21.333 21.333 21.333c46.208 0 83.797 37.589 83.797 83.797 0 11.776 9.557 21.333 21.333 21.333s21.333-9.557 21.333-21.333c0-69.717-56.747-126.464-126.464-126.464z"></path>
+                    <path d="M533.333 42.667c-176.469 0-320 143.531-320 320 0 63.403 18.773 124.672 54.357 177.707 0.981 2.005 2.091 3.925 3.413 5.76 77.867 111.189 91.563 146.347 91.563 179.2v128c0 23.552 19.115 42.667 42.667 42.667h85.333c0 11.093 4.693 22.187 12.373 30.293 8.107 7.68 19.2 12.373 30.293 12.373 11.093 0 22.187-4.693 30.293-12.373 7.68-8.107 12.373-19.2 12.373-30.293h85.333c23.552 0 42.667-19.115 42.667-42.667v-128c0-33.365 13.611-68.693 90.965-179.157 38.187-54.4 58.368-117.845 58.368-183.509 0-176.469-143.531-320-320-320zM618.667 810.667h-170.667v-42.667h170.667v42.667zM725.12 497.195c-62.549 89.301-91.435 140.331-101.76 185.472h-47.36v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-47.488c-10.24-43.947-38.315-93.867-98.389-180.053-0.939-1.877-2.048-3.712-3.285-5.504-28.032-39.851-42.837-86.357-42.837-134.443 0-129.408 105.259-234.667 234.667-234.667s234.667 105.259 234.667 234.667c0 48.043-14.805 94.549-42.88 134.528z"></path>
+                  </svg>
+                </div>
+                <div className="home-text-container">
+                  <span className="home-heading3 card-Heading">
+                    PC-Reperatur
+                  </span>
+                  <span className="home-text02">
+                    <span className="home-text03">
+                      Beheben von Hard- und Softwareproblemen.
+                    </span>
+                  </span>
+                </div>
               </div>
-              <span className="home-name card-Heading">
-                <span>Christoph</span>
+              <div className="home-features-card1">
+                <div className="home-icon-container1">
+                  <svg viewBox="0 0 1024 1024" className="home-icon07">
+                    <path d="M533.333 234.667c-11.776 0-21.333 9.557-21.333 21.333s9.557 21.333 21.333 21.333c46.208 0 83.797 37.589 83.797 83.797 0 11.776 9.557 21.333 21.333 21.333s21.333-9.557 21.333-21.333c0-69.717-56.747-126.464-126.464-126.464z"></path>
+                    <path d="M533.333 42.667c-176.469 0-320 143.531-320 320 0 63.403 18.773 124.672 54.357 177.707 0.981 2.005 2.091 3.925 3.413 5.76 77.867 111.189 91.563 146.347 91.563 179.2v128c0 23.552 19.115 42.667 42.667 42.667h85.333c0 11.093 4.693 22.187 12.373 30.293 8.107 7.68 19.2 12.373 30.293 12.373 11.093 0 22.187-4.693 30.293-12.373 7.68-8.107 12.373-19.2 12.373-30.293h85.333c23.552 0 42.667-19.115 42.667-42.667v-128c0-33.365 13.611-68.693 90.965-179.157 38.187-54.4 58.368-117.845 58.368-183.509 0-176.469-143.531-320-320-320zM618.667 810.667h-170.667v-42.667h170.667v42.667zM725.12 497.195c-62.549 89.301-91.435 140.331-101.76 185.472h-47.36v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-47.488c-10.24-43.947-38.315-93.867-98.389-180.053-0.939-1.877-2.048-3.712-3.285-5.504-28.032-39.851-42.837-86.357-42.837-134.443 0-129.408 105.259-234.667 234.667-234.667s234.667 105.259 234.667 234.667c0 48.043-14.805 94.549-42.88 134.528z"></path>
+                  </svg>
+                </div>
+                <div className="home-text-container1">
+                  <span className="home-heading4 card-Heading">
+                    Handy Reperatur
+                  </span>
+                  <span className="home-text04">
+                    Reparatur von kaputten Samsung und Apple Handy Bildschirmen
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                </div>
+              </div>
+              <div className="home-features-card2">
+                <div className="home-icon-container2">
+                  <svg viewBox="0 0 1024 1024" className="home-icon10">
+                    <path d="M533.333 234.667c-11.776 0-21.333 9.557-21.333 21.333s9.557 21.333 21.333 21.333c46.208 0 83.797 37.589 83.797 83.797 0 11.776 9.557 21.333 21.333 21.333s21.333-9.557 21.333-21.333c0-69.717-56.747-126.464-126.464-126.464z"></path>
+                    <path d="M533.333 42.667c-176.469 0-320 143.531-320 320 0 63.403 18.773 124.672 54.357 177.707 0.981 2.005 2.091 3.925 3.413 5.76 77.867 111.189 91.563 146.347 91.563 179.2v128c0 23.552 19.115 42.667 42.667 42.667h85.333c0 11.093 4.693 22.187 12.373 30.293 8.107 7.68 19.2 12.373 30.293 12.373 11.093 0 22.187-4.693 30.293-12.373 7.68-8.107 12.373-19.2 12.373-30.293h85.333c23.552 0 42.667-19.115 42.667-42.667v-128c0-33.365 13.611-68.693 90.965-179.157 38.187-54.4 58.368-117.845 58.368-183.509 0-176.469-143.531-320-320-320zM618.667 810.667h-170.667v-42.667h170.667v42.667zM725.12 497.195c-62.549 89.301-91.435 140.331-101.76 185.472h-47.36v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-47.488c-10.24-43.947-38.315-93.867-98.389-180.053-0.939-1.877-2.048-3.712-3.285-5.504-28.032-39.851-42.837-86.357-42.837-134.443 0-129.408 105.259-234.667 234.667-234.667s234.667 105.259 234.667 234.667c0 48.043-14.805 94.549-42.88 134.528z"></path>
+                  </svg>
+                </div>
+                <div className="home-text-container2">
+                  <span className="home-heading5 card-Heading">Beratung</span>
+                  <span className="home-text05">
+                    Kompetente Beratung zum Thema Hardware und Software, sowie
+                    die perfekte Zusammenstellung eines Gaming- oder auch
+                    Arbeits- PC&apos;s.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="inspiration" className="home-features3">
+          <div className="home-team">
+            <div className="home-heading-container1">
+              <h1 className="home-text06 section-Heading">Über mich</h1>
+              <span>
+                Ausgebildender Fachinformatiker mit viel Erfahrungen in Thema
+                Computer und Handy&apos;s
               </span>
-              <span className="home-position card-Text">CEO</span>
+              <span className="home-text08 section-Text">
+                <span className="home-text09">&amp;#8203;</span>
+              </span>
+            </div>
+            <div className="home-cards-container1">
+              <div className="home-team-card">
+                <div className="home-avatar-container">
+                  <svg viewBox="0 0 1024 1024" className="home-icon13">
+                    <path d="M576 706.612v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h896c0-128.968-166.898-235.64-384-253.388z"></path>
+                  </svg>
+                </div>
+                <span className="home-name card-Heading">
+                  <span>Christoph</span>
+                </span>
+                <span className="home-position card-Text">
+                  CEO/ INHABER/ FACHINFORMATIKER
+                </span>
+              </div>
             </div>
           </div>
         </div>
-        <div className="home-section-separator1"></div>
-        <div className="home-section-separator2"></div>
-        <div className="home-get-in-touch">
-          <h2 className="home-text12 section-Heading">Get in touch</h2>
+        <div id="kontakt" className="home-get-in-touch">
+          <h2 className="home-text11 section-Heading">Kontaktier mich</h2>
           <div className="home-content-container1">
             <div className="home-form-container">
-              <span className="home-heading5 bigCard-Heading">
+              <span className="home-heading6 bigCard-Heading">
                 Send us a message
               </span>
               <input
                 type="text"
                 required="true"
                 placeholder="Name"
+                id="name"
                 className="home-name1 input"
               />
               <input
                 type="text"
                 required="true"
                 placeholder="E-mail"
+                id="mail"
                 className="home-email input"
               />
               <textarea
                 placeholder="Your Message"
+                id="message"
                 className="home-message textarea"
               ></textarea>
-              <button className="home-cta-btn1 anchor button">SEND</button>
+              <a
+                href="mailto:christophkormann@web.de?subject=test"
+                className="home-cta-btn1 anchor button"
+              >
+                SEND
+              </a>
             </div>
             <div className="home-locations-container">
               <div className="home-location-1">
-                <span className="home-heading6">London, UK</span>
+                <span className="home-heading7">London, UK</span>
                 <div className="home-adress">
                   <svg viewBox="0 0 1024 1024" className="home-icon15">
                     <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
@@ -221,7 +240,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-section-separator3"></div>
+        <div className="home-section-separator"></div>
       </div>
       <style jsx>
         {`
@@ -232,6 +251,7 @@ const Home = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: #a9bee6;
           }
           .home-navbar-container {
             top: 0;
@@ -251,12 +271,10 @@ const Home = (props) => {
             max-width: var(--dl-size-size-maxcontent);
             align-items: center;
             padding-top: var(--dl-space-space-doubleunit);
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
             padding-left: var(--dl-space-space-tripleunit);
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: row;
-            padding-bottom: var(--dl-space-space-doubleunit);
+            padding-bottom: 12px;
             justify-content: space-between;
           }
           .home-left-side {
@@ -313,6 +331,7 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-radius24);
             padding-right: var(--dl-space-space-fiveunits);
             padding-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
           .home-mobile-menu {
@@ -373,24 +392,38 @@ const Home = (props) => {
           .home-link7 {
             text-decoration: none;
           }
+          .home-features {
+            width: 100%;
+            height: 1046px;
+            display: flex;
+            align-self: center;
+            align-items: center;
+            padding-top: var(--dl-space-space-tenunits);
+            padding-left: var(--dl-space-space-tripleunit);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-fiveunits);
+            background-image: linear-gradient(
+              to bottom,
+              #ffffff 0%,
+              #c8e9f9 70%
+            );
+          }
           .home-hero {
             width: 100%;
-            height: 751px;
+            height: 727px;
             display: flex;
             position: relative;
             max-width: var(--dl-size-size-maxcontent);
             align-items: center;
             padding-top: 1px;
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
             padding-left: 1px;
             flex-direction: column;
             padding-bottom: 1px;
-            justify-content: center;
+            justify-content: flex-end;
           }
           .home-hero1 {
-            width: 700px;
-            height: 512px;
+            width: 484px;
+            height: 357px;
             display: flex;
             position: relative;
             align-items: center;
@@ -413,51 +446,74 @@ const Home = (props) => {
             background-color: #000000;
           }
           .home-content-container {
-            top: -17px;
-            flex: 0 0 auto;
-            left: -54px;
-            width: 813px;
-            height: 567px;
+            top: -391px;
+            left: -34px;
+            width: 671px;
+            height: 1046px;
             display: flex;
-            opacity: 0.7;
+            opacity: 0.95;
             position: absolute;
             max-width: auto;
             align-self: center;
             align-items: center;
+            padding-top: var(--dl-space-space-tenunits);
             padding-left: var(--dl-space-space-tripleunit);
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: row;
             justify-content: center;
-            background-color: #ffffff;
+            background-image: linear-gradient(
+              to bottom,
+              #ffffff 0%,
+              #c8e9f9 70%
+            );
           }
           .home-heading {
-            top: 100px;
-            left: 158px;
+            top: -147px;
+            left: 52px;
             color: var(--dl-color-gray-black);
             height: 61px;
             position: absolute;
             border-radius: var(--dl-radius-radius-radius4);
           }
           .home-heading1 {
-            top: 218px;
-            left: -27px;
+            left: -394px;
             color: var(--dl-color-gray-black);
-            width: 816px;
+            width: 326px;
+            bottom: -51px;
             height: 304px;
             position: absolute;
             border-radius: var(--dl-radius-radius-radius4);
           }
-          .home-features {
+          .home-heading2 {
+            color: var(--dl-color-gray-black);
+            right: -294px;
+            width: 259px;
+            bottom: -29px;
+            height: 304px;
+            position: absolute;
+            border-radius: var(--dl-radius-radius-radius4);
+          }
+          .home-features1 {
             width: 100%;
-            height: 516px;
+            height: 744px;
             display: flex;
-            max-width: var(--dl-size-size-maxcontent);
+            align-self: center;
             align-items: center;
             padding-top: var(--dl-space-space-tenunits);
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
+            padding-left: 0px;
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-fiveunits);
+            background-image: linear-gradient(to top, #89d4ef 0%, #c8e9f9 70%);
+          }
+          .home-features2 {
+            width: 100%;
+            height: 585px;
+            display: flex;
+            max-width: var(--dl-size-size-maxcontent);
+            align-self: center;
+            align-items: center;
+            padding-top: var(--dl-space-space-tenunits);
             padding-left: var(--dl-space-space-tripleunit);
-            padding-right: var(--dl-space-space-tripleunit);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
           }
@@ -468,7 +524,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text05 {
+          .home-text01 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
@@ -498,7 +554,6 @@ const Home = (props) => {
             margin-right: var(--dl-space-space-tripleunit);
             border-radius: var(--dl-radius-radius-round);
             flex-direction: column;
-            background-color: var(--dl-color-gray-900);
           }
           .home-icon04 {
             width: 36px;
@@ -511,12 +566,22 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-heading2 {
+          .home-heading3 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text06 {
-            color: var(--dl-color-gray-700);
+          .home-text02 {
+            color: #ffffff;
+            font-size: 20px;
+            font-style: normal;
             text-align: left;
+            font-family: Raleway;
+            font-weight: 400;
+            line-height: 1.55;
+            text-transform: none;
+            text-decoration: none;
+          }
+          .home-text03 {
+            color: #000000;
           }
           .home-features-card1 {
             width: 30%;
@@ -536,7 +601,6 @@ const Home = (props) => {
             margin-right: var(--dl-space-space-tripleunit);
             border-radius: var(--dl-radius-radius-round);
             flex-direction: column;
-            background-color: var(--dl-color-gray-900);
           }
           .home-icon07 {
             width: 36px;
@@ -549,12 +613,19 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-heading3 {
+          .home-heading4 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text07 {
-            color: var(--dl-color-gray-700);
+          .home-text04 {
+            color: #000000;
+            font-size: 20px;
+            font-style: normal;
             text-align: left;
+            font-family: Raleway;
+            font-weight: 400;
+            line-height: 1.55;
+            text-transform: none;
+            text-decoration: none;
           }
           .home-features-card2 {
             width: 30%;
@@ -574,7 +645,6 @@ const Home = (props) => {
             margin-right: var(--dl-space-space-tripleunit);
             border-radius: var(--dl-radius-radius-round);
             flex-direction: column;
-            background-color: var(--dl-color-gray-900);
           }
           .home-icon10 {
             width: 36px;
@@ -587,30 +657,44 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-heading4 {
+          .home-heading5 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text08 {
-            color: var(--dl-color-gray-700);
+          .home-text05 {
+            color: #000000;
+            font-size: 20px;
+            font-style: normal;
             text-align: left;
+            font-family: Raleway;
+            font-weight: 400;
+            line-height: 1.55;
+            text-transform: none;
+            text-decoration: none;
           }
-          .home-section-separator {
+          .home-features3 {
             width: 100%;
-            height: 1px;
+            height: 770px;
             display: flex;
-            align-items: flex-start;
+            align-self: center;
+            align-items: center;
+            padding-top: var(--dl-space-space-tenunits);
+            padding-left: var(--dl-space-space-tripleunit);
+            margin-bottom: 104px;
             flex-direction: column;
-            background-color: var(--dl-color-gray-900);
+            padding-bottom: var(--dl-space-space-fiveunits);
+            background-image: linear-gradient(
+              to bottom,
+              #89d4ef 0%,
+              #a9bee6 70%
+            );
           }
           .home-team {
             width: 100%;
-            height: 578px;
+            height: 648px;
             display: flex;
             max-width: var(--dl-size-size-maxcontent);
             align-items: center;
             padding-top: var(--dl-space-space-tenunits);
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
             padding-left: var(--dl-space-space-tripleunit);
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: column;
@@ -625,13 +709,16 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: column;
           }
-          .home-text09 {
+          .home-text06 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text10 {
+          .home-text08 {
             color: var(--dl-color-gray-700);
             text-align: center;
+          }
+          .home-text09 {
+            color: #464545;
           }
           .home-cards-container1 {
             width: 100%;
@@ -647,6 +734,7 @@ const Home = (props) => {
             padding: var(--dl-space-space-fourunits);
             align-items: center;
             flex-direction: column;
+            padding-bottom: 32px;
           }
           .home-avatar-container {
             display: flex;
@@ -667,37 +755,21 @@ const Home = (props) => {
           .home-position {
             color: var(--dl-color-gray-700);
           }
-          .home-section-separator1 {
-            width: 100%;
-            height: 1px;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            background-color: var(--dl-color-gray-900);
-          }
-          .home-section-separator2 {
-            width: 100%;
-            height: 1px;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
           .home-get-in-touch {
             width: 100%;
-            height: 777px;
+            height: 962px;
             display: flex;
             max-width: var(--dl-size-size-maxcontent);
             align-items: center;
-            padding-top: var(--dl-space-space-fiveunits);
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
+            padding-top: var(--dl-space-space-tenunits);
             padding-left: var(--dl-space-space-tripleunit);
+            margin-bottom: 91px;
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
             justify-content: flex-start;
           }
-          .home-text12 {
+          .home-text11 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
@@ -724,7 +796,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fiveunits);
             background-color: var(--dl-color-gray-900);
           }
-          .home-heading5 {
+          .home-heading6 {
             margin-bottom: var(--dl-space-space-fourunits);
           }
           .home-name1 {
@@ -766,6 +838,7 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-radius24);
             padding-right: var(--dl-space-space-tenunits);
             padding-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
           .home-locations-container {
@@ -780,7 +853,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-tripleunit);
             flex-direction: column;
           }
-          .home-heading6 {
+          .home-heading7 {
             font-size: 24px;
             font-style: normal;
             font-family: Roboto;
@@ -820,7 +893,7 @@ const Home = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-doubleunit);
           }
-          .home-section-separator3 {
+          .home-section-separator {
             width: 100%;
             height: 1px;
             display: flex;
@@ -909,6 +982,10 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
+            .home-features {
+              padding-top: var(--dl-space-space-fiveunits);
+              padding-bottom: var(--dl-space-space-fiveunits);
+            }
             .home-hero {
               padding-top: var(--dl-space-space-fourunits);
               padding-bottom: var(--dl-space-space-fourunits);
@@ -924,7 +1001,11 @@ const Home = (props) => {
               padding-top: var(--dl-space-space-fiveunits);
               padding-bottom: var(--dl-space-space-fiveunits);
             }
-            .home-features {
+            .home-features1 {
+              padding-top: var(--dl-space-space-fiveunits);
+              padding-bottom: var(--dl-space-space-fiveunits);
+            }
+            .home-features2 {
               padding-top: var(--dl-space-space-fiveunits);
               padding-bottom: var(--dl-space-space-fiveunits);
             }
@@ -937,11 +1018,15 @@ const Home = (props) => {
             .home-features-card2 {
               width: 100%;
             }
+            .home-features3 {
+              padding-top: var(--dl-space-space-fiveunits);
+              padding-bottom: var(--dl-space-space-fiveunits);
+            }
             .home-team {
               padding-top: var(--dl-space-space-fiveunits);
               padding-bottom: var(--dl-space-space-fiveunits);
             }
-            .home-text09 {
+            .home-text06 {
               text-align: center;
             }
             .home-content-container1 {
@@ -951,7 +1036,7 @@ const Home = (props) => {
               padding: var(--dl-space-space-tripleunit);
               margin-right: 0px;
             }
-            .home-heading5 {
+            .home-heading6 {
               text-align: center;
             }
             .home-location-1 {
