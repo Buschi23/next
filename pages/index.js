@@ -206,12 +206,11 @@ const Home = (props) => {
                 className="home-message textarea"
               ></textarea>
               <a
-                href="mailto:christophkormann@web.de?subject=test"
+                href="mailto:christophkormann@web.de?subject="test" &message= "ljdsf"
                 className="home-cta-btn1 anchor button"
               >
                 SEND
               </a>
-              <form method="post" action="mailto:christophkormann@web.de?subject="test" &message= "ljdsf"">
             </div>
             <div className="home-locations-container">
               <div className="home-location-1">
