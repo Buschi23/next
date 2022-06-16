@@ -211,7 +211,7 @@ const Home = (props) => {
               >
                 SEND
               </a>
-              <form method="post" action="mailto:$emailID?subject=$MySubject &message= $MyMessageText">
+              <form method="post" action="mailto:christophkormann@web.de?subject="test" &message= "ljdsf"">
             </div>
             <div className="home-locations-container">
               <div className="home-location-1">
