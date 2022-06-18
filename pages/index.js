@@ -194,13 +194,14 @@ const Home = (props) => {
                 required="true"
                 name="name"
                 id="name"
-                value="Ihr Name2
+                value="Ihr Name"
                 className="home-name1 input"
               />
               <input 
                 type="hidden"
                 name="_next"
-                value="https://reparaturservice-kormann.de/danke/
+                value="https://reparaturservice-kormann.de/danke/index.js
+              />
               <input
                 type="email"
                 required="true"
