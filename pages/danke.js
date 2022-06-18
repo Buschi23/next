@@ -1,3 +1,10 @@
+import React from 'react'
+import Head from 'next/head'
+
+const Home = (props) => {
+  return (
+    <>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,3 +15,7 @@
     <h1>Danke</h1>
 </body>
 </html>
+
+</>
+ )
+}
