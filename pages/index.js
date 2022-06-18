@@ -192,7 +192,7 @@ const Home = (props) => {
               <input
                 type="text"
                 required="true"
-                name="Name"
+                name="name"
                 id="name"
                 className="home-name1 input"
               />
@@ -203,11 +203,12 @@ const Home = (props) => {
                 id="mail"
                 className="home-email input"
               />
-              <input
+              <textarea
                 placeholder="Your Message"
                 id="message"
+                name="message"
                 className="home-message textarea"
-              ></input>            
+              ></textarea>            
               <button type="submit">Send</button>
               </form>
 
