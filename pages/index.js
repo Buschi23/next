@@ -186,28 +186,33 @@ const Home = (props) => {
               <span className="home-heading6 bigCard-Heading">
                 Send us a message
               </span>
+              
+
               <form action="https://formsubmit.co/christophkormann@web.de" method="POST">
               <input
                 type="text"
                 required="true"
-                placeholder="Name"
+                name="Name"
                 id="name"
                 className="home-name1 input"
               />
               <input
-                type="text"
+                type="email"
                 required="true"
-                placeholder="E-mail"
+                name"email"
                 id="mail"
                 className="home-email input"
               />
-              <textarea
+              <input
                 placeholder="Your Message"
                 id="message"
                 className="home-message textarea"
               ></textarea>            
               <button type="submit">Send</button>
               </form>
+
+
+
             </div>
             <div className="home-locations-container">
               <div className="home-location-1">
