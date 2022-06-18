@@ -1,36 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-$.ajax({
-  type: “POST”,
-  url: “https://mandrillapp.com/api/1.0/messages/send.json”,
-  data: {
-    ‘key’: ‘960366de2b0609a2e0cc7cda98b303d3-us9’,
-    ‘message’: {
-      ‘from_email’: ‘christophkormann@web.de’,
-      ‘to’: [
-          {
-            ‘email’: ‘christophkormann@web.de’,
-            ‘name’: ‘RECIPIENT NAME (OPTIONAL)’,
-            ‘type’: ‘to’
-          },
-          {
-            ‘email’: ‘christophkormann@web.de’,
-            ‘name’: ‘ANOTHER RECIPIENT NAME (OPTIONAL)’,
-            ‘type’: ‘to’
-          }
-        ],
-      ‘autotext’: ‘true’,
-      ‘subject’: ‘YOUR SUBJECT HERE!’,
-      ‘html’: ‘YOUR EMAIL CONTENT HERE! YOU CAN USE HTML!’
-    }
-  }
- }).done(function(response) {
-   console.log(response); // if you're into that sorta thing
- });
-
-
 const Home = (props) => {
   return (
     <>
