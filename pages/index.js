@@ -199,7 +199,7 @@ const Home = (props) => {
               <input
                 type="email"
                 required="true"
-                name"email"
+                name="email"
                 id="mail"
                 className="home-email input"
               />
