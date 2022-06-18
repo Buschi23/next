@@ -207,7 +207,7 @@ const Home = (props) => {
                 placeholder="Your Message"
                 id="message"
                 className="home-message textarea"
-              ></textarea>            
+              ></input>            
               <button type="submit">Send</button>
               </form>
 
