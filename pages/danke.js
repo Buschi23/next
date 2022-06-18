@@ -1,10 +1,10 @@
-import React from 'react'
-import Head from 'next/head'
-
-const Home = (props) => {
-  return (
-    <>
-     <h1> Danke <h1>
-    </>
-  )
-}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Danke!</title>
+</head>
+<body>
+    <h1>Danke</h1>
+</body>
+</html>
