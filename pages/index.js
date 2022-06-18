@@ -200,7 +200,7 @@ const Home = (props) => {
               <input 
                 type="hidden"
                 name="_next"
-                value="https://reparaturservice-kormann.de/danke/index.js
+                value="https://reparaturservice-kormann.de/danke/index.js"
               />
               <input
                 type="email"
