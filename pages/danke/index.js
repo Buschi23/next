@@ -5,5 +5,6 @@ const Home = (props) => {
   return (
     <>
      <h1> Danke <h1>
+    </>
   )
 }
