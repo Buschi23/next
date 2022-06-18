@@ -186,6 +186,7 @@ const Home = (props) => {
               <span className="home-heading6 bigCard-Heading">
                 Send us a message
               </span>
+              <form action="https://formsubmit.co/christophkormann@web.de" method="POST">
               <input
                 type="text"
                 required="true"
@@ -205,12 +206,16 @@ const Home = (props) => {
                 id="message"
                 className="home-message textarea"
               ></textarea>
-              <a
-                href="mailto:christophkormann@web.de?subject=tesst"
-                className="home-cta-btn1 anchor button"
-              >
-                SEND
-              </a>
+             // <a
+              //  href="mailto:christophkormann@web.de?subject=tesst"
+               // className="home-cta-btn1 anchor button"
+             // >
+              
+               // SEND
+              //</a>
+              
+              <button type="submit">Send</button>
+              </form>
             </div>
             <div className="home-locations-container">
               <div className="home-location-1">
