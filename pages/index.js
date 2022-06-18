@@ -205,15 +205,7 @@ const Home = (props) => {
                 placeholder="Your Message"
                 id="message"
                 className="home-message textarea"
-              ></textarea>
-             // <a
-              //  href="mailto:christophkormann@web.de?subject=tesst"
-               // className="home-cta-btn1 anchor button"
-             // >
-              
-               // SEND
-              //</a>
-              
+              ></textarea>            
               <button type="submit">Send</button>
               </form>
             </div>
