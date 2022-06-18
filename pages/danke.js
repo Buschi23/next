@@ -1,14 +1,18 @@
 import React from 'react'
-import Head from 'next/head'
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-const Home = (props) => {
+import './style.css'
+import Home from './views/home'
+
+const App = () => {
   return (
-    <>
-        <h1> Test <h1>  
-    
-    
-    </>
+    <Router>
+      <div>
+        <Route exact component={Home} path="/" />
+      </div>
+    </Router>
   )
 }
 
-export default Home
+ReactDOM.render(<App />, document.getElementById('app'))
