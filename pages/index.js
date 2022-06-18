@@ -194,17 +194,20 @@ const Home = (props) => {
                 required="true"
                 name="name"
                 id="name"
+                value="Ihr Name2
                 className="home-name1 input"
               />
+              <input type="hidden"
               <input
                 type="email"
                 required="true"
                 name="email"
+                value="Ihre E-Mail"
                 id="mail"
                 className="home-email input"
               />
               <textarea
-                placeholder="Your Message"
+                placeholder="Ihre Nachricht"
                 id="message"
                 name="message"
                 className="home-message textarea"
