@@ -58,11 +58,8 @@ const Home = (props) => {
         </div>
         <div id="inspiration" className="home-features">
           <h1 className="home-text">
-            <span>Danke!</span>
-            <br></br>
-            <span>Ein Mitarbeiter wird dir in naher Zukunft antworten</span>
-            <br></br>
-            <span>und schnellstmöglich ein Termin finden.</span>
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-1972139e-b9eb-4fd9-be53-8d9a210d3625"></div>
           </h1>
         </div>
       </div>
