@@ -205,7 +205,7 @@ const Home = (props) => {
               <input
                 type="email"
                 id="email"
-                name="email
+                name="email"
                 placeholder="Ihre E-Mails"
                 required="true"
                 className="home-email input"
