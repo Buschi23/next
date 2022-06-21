@@ -194,7 +194,7 @@ const Home = (props) => {
                 required="true"
                 name="name"
                 id="name"
-                value="Ihr Name"
+                placeholder="Ihr Name"
                 className="home-name1 input"
               />
               <input 
@@ -206,7 +206,7 @@ const Home = (props) => {
                 type="email"
                 required="true"
                 name="email"
-                value="Ihre E-Mail"
+                placeholder="Ihre E-Mails"
                 id="mail"
                 className="home-email input"
               />
@@ -216,7 +216,7 @@ const Home = (props) => {
                 name="message"
                 className="home-message textarea"
               ></textarea>            
-              <button type="submit">Send</button>
+              <button type="submit" class="home-cta-btn1 anchor button">Send</button>
               </form>
 
 
