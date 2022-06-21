@@ -191,10 +191,10 @@ const Home = (props) => {
               <form action="https://formsubmit.co/christophkormann@web.de" method="POST">
               <input
                 type="text"
-                required="true"
-                name="name"
                 id="name"
+                name="name"
                 placeholder="Ihr Name"
+                required="true"
                 className="home-name1 input"
               />
               <input 
@@ -204,10 +204,10 @@ const Home = (props) => {
               />
               <input
                 type="email"
-                required="true"
-                name="email"
+                id="email"
+                name="email
                 placeholder="Ihre E-Mails"
-                id="mail"
+                required="true"
                 className="home-email input"
               />
               <textarea
@@ -216,7 +216,7 @@ const Home = (props) => {
                 name="message"
                 className="home-message textarea"
               ></textarea>            
-              <button type="submit" class="home-cta-btn1 anchor button">Send</button>
+              <button type="submit" className="home-cta-btn1 anchor button">Send</button>
               </form>
 
 
