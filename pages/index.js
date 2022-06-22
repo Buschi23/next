@@ -193,7 +193,7 @@ const Home = (props) => {
                 type="text"
                 id="name"
                 name="name"
-                placeholder="Ihr Name"
+                value="Ihr Name"
                 required="true"
                 className="home-name1 input"
               />
@@ -206,12 +206,12 @@ const Home = (props) => {
                 type="email"
                 id="email"
                 name="email"
-                placeholder="Ihre E-Mails"
+                value="Ihre E-Mails"
                 required="true"
                 className="home-email input"
               />
               <textarea
-                placeholder="Ihre Nachricht"
+                value="Ihre Nachricht"
                 id="message"
                 name="message"
                 className="home-message textarea"
