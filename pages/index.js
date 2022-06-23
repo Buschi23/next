@@ -4,6 +4,8 @@ import Head from 'next/head'
 const Home = (props) => {
   return (
     <>
+      <script src="script/script.js"></script>
+      
       <div className="home-container">
         <Head>
           <title>Landing Page1</title>
