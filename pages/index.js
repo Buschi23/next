@@ -4,10 +4,11 @@ import Head from 'next/head'
 const Home = (props) => {
   return (
     <>
-      <script src="script/script.js"></script>
+      
       
       <div className="home-container">
         <Head>
+          <script type="text/javascript" src="/script/mobile.js"></script>
           <title>Landing Page1</title>
           <meta property="og:title" content="Landing Page1" />
         </Head>
